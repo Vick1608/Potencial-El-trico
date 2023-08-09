@@ -21,4 +21,3 @@ class ElectricFieldApp:
         self.cid = self.fig.canvas.mpl_connect('button_press_event', self.on_click)
         self.selected_point = None
         
-        
